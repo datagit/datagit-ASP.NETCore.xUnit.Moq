@@ -15,4 +15,11 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0-previ
 # install packages for test
 dotnet add package xunit --version 2.4.1
 dotnet add package Moq --version 4.16.1
+
+dotnet add package Microsoft.NET.Test.Sdk --version 16.10.0
+dotnet add package xunit.runner.visualstudio --version 2.4.3
+dotnet add package coverlet.collector --version 3.0.3
+
+# run test
+dotnet test
 ```
